@@ -1,0 +1,28 @@
+.map_container{
+    width: 49%;
+    margin: auto;
+}
+
+.mappp {
+    touch-action:none;
+  }
+
+.app__maps {
+    width: 100%;
+
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+    .app__maps {
+      flex-direction: column;
+    }
+    .map_container{
+        width: 100%;
+    }
+  }
